@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charts</title>
+    <script src="plotly.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="options">
+      <h3>Choose a chart:</h3>
+      <ul>
+        <li>
+          <button class="donut" value="donut">Donut</button>
+        </li>
+        <li>
+          <button class="bar" value="bar">Bar</button>
+        </li>
+        <li>
+          <button class="stackedBar" value="stackedBar">Stacked Bar</button>
+        </li>
+        <li>
+          <button class="line" value="line">Line</button>
+        </li>
+      </ul>
+    </div>
+    <div class="charts">
+      <div class="donut"></div>
+      <div class="bar"></div>
+      <div class="stackedBar"></div>
+      <div class="line"></div>
+    </div>
+    <script src="charts.js"></script>
+  </body>
+</html>

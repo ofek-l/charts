@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.charts {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.charts .line {
+  order: -2;
+}
+
+.charts .stackedBar {
+  order: -1;
+}
+
+.options {
+  float: left;
+  position: relative;
+}
+
+.charts div {
+  margin: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+.options button {
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.options button:hover {
+  color: rgb(0, 92, 153);
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2px;
+  line-height: 1.55em;
+}
